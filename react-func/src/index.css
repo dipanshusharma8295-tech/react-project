@@ -1,0 +1,27 @@
+
+@import "tailwindcss";
+
+
+.page1{
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}
+
+button{
+  padding: 10px 20px;
+  margin: 20px;
+}
+
+h1{
+  background-color: gainsboro;
+  width: fit-content;
+  padding: 10px 20px;
+  margin: 20px;
+}
+
+input , button{
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 15px;
+}
