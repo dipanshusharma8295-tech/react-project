@@ -47,6 +47,8 @@ const App = () => {
        
 
         <button onClick={()=>{
+
+        
           if(index>1){
             setIndex(index-1)
             setUSerData([])

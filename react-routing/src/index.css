@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,body{
+  height: 100%;
+  width: 100%;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding:  20px 50px;
+  background-color: cadetblue;
+}
+
+.nav-first{
+  display: flex;
+  gap: 40px;
+  
+}
+
+.nav-first a{
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.home-about-contact{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 40px;
+  text-decoration: underline;
+}
